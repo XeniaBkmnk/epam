@@ -6,6 +6,8 @@ public
     class Task6 {
     public static void main(String[] args) {
 
+//===========1
+        {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println
@@ -44,24 +46,24 @@ public
         }
         System.out.println("---1---");
         System.out.println(isInArea);
-
-
-
-        Scanner scanner2 = new Scanner(System.in);
-        System.out.println("Введите a:");
-        int a = scanner2.nextInt();
-        System.out.println("Введите b:");
-        int b = scanner2.nextInt();
-        System.out.println("Введите c:");
-        int c = scanner2.nextInt();
-        System.out.println("Введите d:");
-        int d = scanner2.nextInt();
-        int result = Math.max(Math.min(a, b), Math.min(c, d));
-        System.out.println("---2---");
-        System.out.println(result);
-
-
-
+    }
+//===========2
+        {
+            Scanner scanner2 = new Scanner(System.in);
+            System.out.println("Введите a:");
+            int a = scanner2.nextInt();
+            System.out.println("Введите b:");
+            int b = scanner2.nextInt();
+            System.out.println("Введите c:");
+            int c = scanner2.nextInt();
+            System.out.println("Введите d:");
+            int d = scanner2.nextInt();
+            int result = Math.max(Math.min(a, b), Math.min(c, d));
+            System.out.println("---2---");
+            System.out.println(result);
+        }
+//===========3
+        {
         Scanner scanner3 = new Scanner(System.in);
         System.out.println
                 (
@@ -99,29 +101,45 @@ public
         }
         System.out.println("---3---");
         System.out.println(areOnOneLine);
-
-
-        Scanner scanner4 = new Scanner(System.in);
-        System.out.println("Введите ширину отверстия:");
-        double a1 = scanner4.nextDouble();
-        System.out.println("Введите высоту отверстия:");
-        double b1 = scanner4.nextDouble();
-        System.out.println("Введите ширину кирпича:");
-        double q = scanner4.nextDouble();
-        System.out.println("Введите высоту кирпича:");
-        double w = scanner4.nextDouble();
-        System.out.println("Введите длину кирпича:");
-        double z = scanner4.nextDouble();
-        boolean canPass = false;
-        if (
-                (q <= a1 && w <= b1) || (q <= b1 && w <= a1) ||
-                (q <= a1 && z <= b1) || (q <= b1 && z <= a1) ||
-                (w <= a1 && z <= b1) || (w <= b1 && z <= a1))
-        { // проверка на проходимость
-            canPass = true;
+    }
+//===========4
+        {
+            Scanner scanner4 = new Scanner(System.in);
+            System.out.println("Введите ширину отверстия:");
+            double a1 = scanner4.nextDouble();
+            System.out.println("Введите высоту отверстия:");
+            double b1 = scanner4.nextDouble();
+            System.out.println("Введите ширину кирпича:");
+            double q = scanner4.nextDouble();
+            System.out.println("Введите высоту кирпича:");
+            double w = scanner4.nextDouble();
+            System.out.println("Введите длину кирпича:");
+            double z = scanner4.nextDouble();
+            boolean canPass = false;
+            if (
+                    (q <= a1 && w <= b1) || (q <= b1 && w <= a1) ||
+                            (q <= a1 && z <= b1) || (q <= b1 && z <= a1) ||
+                            (w <= a1 && z <= b1) || (w <= b1 && z <= a1)) { // проверка на проходимость
+                canPass = true;
+            }
+            System.out.println("---4---");
+            System.out.println(canPass);
         }
-        System.out.println("---4---");
-        System.out.println(canPass);
+        
+        
+        //============5
+        {
+            Scanner scanner5 = new Scanner(System.in);
+            System.out.println("Введите значение xx:");
+            double xx = scanner5.nextDouble();
+            double result1;
+            if (xx <= 3) {
+                result1 = Math.pow(xx, 2) - 3 * xx + 9;
+            } else {
+                result1 = 1 / (Math.pow(xx, 3) + 6);
+            }
+            System.out.println(result1);
+        }
 
     }
 }
