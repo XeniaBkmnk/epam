@@ -25,8 +25,6 @@ public
 
 // Выведем цифры первого числа
         System.out.print("Цифры первого числа: ");
-//for(int i=0; i<digits1.lenght;i++)
-//int digit = digits1[i];
         for (int digit : digits1) {
             System.out.print(digit + " ");
         }
