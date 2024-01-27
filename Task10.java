@@ -22,6 +22,6 @@ public
             }
             System.out.println();
         }
-        scanner.close(); //зарываем сканер
+        scanner.close(); 
     }
 }
