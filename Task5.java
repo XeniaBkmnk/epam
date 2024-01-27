@@ -11,7 +11,6 @@ public
         int min =(TimeSec&3600)/60;
         int sec= TimeSec%60;
         System.out.printf("%02dH %02dmin %02dsec",Hors,min,sec);
-
-
     }
+        
 }
