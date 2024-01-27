@@ -5,8 +5,6 @@ import java.util.Scanner;
 public
     class Task6 {
     public static void main(String[] args) {
-
-//===========1
         {
         Scanner scanner = new Scanner(System.in);
 
@@ -47,7 +45,7 @@ public
         System.out.println("---1---");
         System.out.println(isInArea);
     }
-//===========2
+
         {
             Scanner scanner2 = new Scanner(System.in);
             System.out.println("Введите a:");
@@ -62,7 +60,7 @@ public
             System.out.println("---2---");
             System.out.println(result);
         }
-//===========3
+
         {
         Scanner scanner3 = new Scanner(System.in);
         System.out.println
@@ -102,7 +100,7 @@ public
         System.out.println("---3---");
         System.out.println(areOnOneLine);
     }
-//===========4
+
         {
             Scanner scanner4 = new Scanner(System.in);
             System.out.println("Введите ширину отверстия:");
@@ -126,8 +124,6 @@ public
             System.out.println(canPass);
         }
         
-        
-        //============5
         {
             Scanner scanner5 = new Scanner(System.in);
             System.out.println("Введите значение xx:");
@@ -142,4 +138,5 @@ public
         }
 
     }
+        
 }
