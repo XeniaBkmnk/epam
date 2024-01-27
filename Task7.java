@@ -18,4 +18,5 @@ public
         System.out.println("Сумма чисел от 1 до " + n + " равна " + sum);
 
     }
+        
 }
